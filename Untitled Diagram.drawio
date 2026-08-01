@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="4gWrqb6mGvukvInTEJl5">
+    <mxGraphModel dx="838" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wP-mdbeL4qrVROKobQWK-34" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Primary ID" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-35" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Date" vertex="1">
+          <mxGeometry height="80" width="80" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-37" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Amount Spent" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-41" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Category ID" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-43" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Category Name" vertex="1">
+          <mxGeometry height="80" width="80" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-45" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Budgeted Amount" vertex="1">
+          <mxGeometry height="80" width="80" x="200" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-46" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Amount Left Over" vertex="1">
+          <mxGeometry height="80" width="80" x="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-47" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Percentage of budgeted amount spent" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-mdbeL4qrVROKobQWK-49" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" value="Category ID" vertex="1">
+          <mxGeometry height="80" width="80" x="280" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
