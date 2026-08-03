@@ -2,3 +2,9 @@
 CREATE DATABASE budget_app;
 
 // CREATE TABLE
+
+// Create file to insert data
+touch insert_data.sh
+
+// give it execution priviledges
+chmod +x insert_data.sh
