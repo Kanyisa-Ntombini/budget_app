@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo hello world
+echo Hello World!
 
 PSQL="psql -X --username=user --dbname=budget_app --no-align --tuples-only -c"
 cat money_spent.csv | while IFS="," read DATA AMOUNT NAME CATEGORY
