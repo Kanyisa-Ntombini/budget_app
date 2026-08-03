@@ -1,164 +1,176 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="4gWrqb6mGvukvInTEJl5">
-    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RoN4h9TARRjuKN6wfejD-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spent ID" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Date" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category ID" vertex="1">
-          <mxGeometry height="40" width="80" x="680" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Amount Spent" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="40" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERIAL" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRIMARY KEY" vertex="1">
+        <mxCell id="RoN4h9TARRjuKN6wfejD-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="expense_id" vertex="1">
           <mxGeometry height="40" width="80" x="40" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UNIQUE" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FOREIGN KEY" vertex="1">
-          <mxGeometry height="40" width="80" x="670" y="160" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="RoN4h9TARRjuKN6wfejD-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="date" vertex="1">
           <mxGeometry height="40" width="80" x="120" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
-          <mxGeometry height="40" width="80" x="680" y="120" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="category_id" vertex="1">
+          <mxGeometry height="40" width="80" x="690" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="160" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="amount_spent" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="120" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERIAL" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="RoN4h9TARRjuKN6wfejD-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+        <mxCell id="RoN4h9TARRjuKN6wfejD-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRIMARY KEY" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RoN4h9TARRjuKN6wfejD-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UNIQUE" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RoN4h9TARRjuKN6wfejD-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FOREIGN KEY" vertex="1">
+          <mxGeometry height="40" width="80" x="680" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RoN4h9TARRjuKN6wfejD-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
           <mxGeometry height="40" width="100" x="200" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category ID" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="240" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category Name" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="240" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+          <mxGeometry height="40" width="80" x="690" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Budgeted Amount" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="240" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VARCHAR(50)" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="280" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
-          <mxGeometry height="40" width="80" x="680" y="80" as="geometry" />
+        <mxCell id="RoN4h9TARRjuKN6wfejD-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="520" as="geometry" />
-        </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRIMARY KEY" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="280" as="geometry" />
-        </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERIAL" vertex="1">
+        <mxCell id="czu5-NtqOarpShoKZlof-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="category_id" vertex="1">
           <mxGeometry height="40" width="80" x="40" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UNIQUE" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+        <mxCell id="czu5-NtqOarpShoKZlof-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="category" vertex="1">
           <mxGeometry height="40" width="80" x="120" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+        <mxCell id="czu5-NtqOarpShoKZlof-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="budgeted_amount" vertex="1">
           <mxGeometry height="40" width="100" x="200" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERIAL" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="600" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VARCHAR(50)" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UNIQUE" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="640" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="80" x="690" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRIMARY KEY" vertex="1">
+        <mxCell id="czu5-NtqOarpShoKZlof-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="balance_id" vertex="1">
           <mxGeometry height="40" width="80" x="40" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Amount Left Over&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="290" y="520" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRIMARY KEY" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Percentage of budgeted amount spent&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="520" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERIAL" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
-          <mxGeometry height="40" width="100" x="290" y="600" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UNIQUE" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
-          <mxGeometry height="40" width="140" x="390" y="600" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="280" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
+        <mxCell id="czu5-NtqOarpShoKZlof-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERIAL" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UNIQUE" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRIMARY KEY" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="amount_spent" vertex="1">
           <mxGeometry height="40" width="100" x="290" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
+        <mxCell id="czu5-NtqOarpShoKZlof-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="percentage_spent" vertex="1">
           <mxGeometry height="40" width="140" x="390" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Category ID" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="520" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+          <mxGeometry height="40" width="100" x="290" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FOREIGN KEY" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="640" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+          <mxGeometry height="40" width="140" x="390" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
-          <mxGeometry height="40" width="80" x="120" y="600" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+        <mxCell id="czu5-NtqOarpShoKZlof-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
+          <mxGeometry height="40" width="100" x="290" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
+          <mxGeometry height="40" width="140" x="390" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="category_id" vertex="1">
           <mxGeometry height="40" width="80" x="120" y="560" as="geometry" />
         </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FOREIGN KEY" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="czu5-NtqOarpShoKZlof-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="600" as="geometry" />
+        </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FOREIGN KEY" vertex="1">
-          <mxGeometry height="40" width="80" x="600" y="160" as="geometry" />
+          <mxGeometry height="40" width="80" x="610" y="240" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
-          <mxGeometry height="40" width="80" x="600" y="120" as="geometry" />
+          <mxGeometry height="40" width="80" x="610" y="200" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="INT" vertex="1">
-          <mxGeometry height="40" width="80" x="600" y="80" as="geometry" />
+          <mxGeometry height="40" width="80" x="610" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spent ID and Category ID" vertex="1">
-          <mxGeometry height="40" width="160" x="440" y="40" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="expense_id and category_id" vertex="1">
+          <mxGeometry height="40" width="160" x="450" y="120" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SERIAL" vertex="1">
-          <mxGeometry height="40" width="160" x="440" y="120" as="geometry" />
+          <mxGeometry height="40" width="160" x="450" y="200" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="UNIQUE" vertex="1">
-          <mxGeometry height="40" width="160" x="440" y="160" as="geometry" />
+          <mxGeometry height="40" width="160" x="450" y="240" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PRIMARY KEY" vertex="1">
-          <mxGeometry height="40" width="160" x="440" y="80" as="geometry" />
+          <mxGeometry height="40" width="160" x="450" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spent ID" vertex="1">
-          <mxGeometry height="40" width="80" x="600" y="40" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="expense_id" vertex="1">
+          <mxGeometry height="40" width="80" x="610" y="120" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="joining_table" vertex="1">
-          <mxGeometry height="30" width="100" x="450" as="geometry" />
+          <mxGeometry height="30" width="100" x="440" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ALTER TABLE joining_table ADD PRIMARY KEY (Spent ID, Category ID);" vertex="1">
-          <mxGeometry height="50" width="300" x="440" y="210" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ALTER TABLE expenses_categories ADD PRIMARY KEY (expense_id, category_id);" vertex="1">
+          <mxGeometry height="50" width="300" x="450" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="czu5-NtqOarpShoKZlof-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Total Amount Spent&lt;/span&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="520" as="geometry" />
+        <mxCell id="czu5-NtqOarpShoKZlof-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="total_spent" vertex="1">
+          <mxGeometry height="40" width="100" x="200" y="560" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NOT NULL" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="600" as="geometry" />
+          <mxGeometry height="40" width="100" x="200" y="640" as="geometry" />
         </mxCell>
         <mxCell id="czu5-NtqOarpShoKZlof-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="NUMERIC(7,2)" vertex="1">
-          <mxGeometry height="40" width="100" x="200" y="560" as="geometry" />
+          <mxGeometry height="40" width="100" x="200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="xNCv1ek4XsqE4b_yzcBK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="categories" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="xNCv1ek4XsqE4b_yzcBK-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="expenses" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xNCv1ek4XsqE4b_yzcBK-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="balance" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="xNCv1ek4XsqE4b_yzcBK-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="expenses_categories" vertex="1">
+          <mxGeometry height="15" width="130" x="535" y="47.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
