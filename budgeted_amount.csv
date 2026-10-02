@@ -1,0 +1,19 @@
+year,amount,name,category
+2026,8500,rent,housing
+2026,519,wifi,housing
+2026,250,airtime,housing
+2026,500,furniture,housing
+2026,300,clothes,personal
+2026,1000,monthly,food
+2026,1000,weekly,food
+2026,1000,loan,loans
+2026,1200,toiletries and medication,healthcare
+2026,300,fun,entertainment
+2026,50,youtube,entertainment
+2026,690,uber,transport
+2026,300,other,transport
+2026,300,home,other
+2026,99,bank charges,other
+2026,150,credit card,other
+2026,135,legal insurance,other
+2026,0,other,other
